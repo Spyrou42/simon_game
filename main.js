@@ -240,7 +240,7 @@ function getRdmSounds(qtity)
 function getSoundFromFolder(id)
 {
 
-    return "../simon/sounds/sound"+ rdmSounds[id] +".wav";
+    return "sounds/sound"+ rdmSounds[id] +".wav";
 }
 
 function displayReady()
