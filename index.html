@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simon's Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+        
+    </head>
+    <body>
+
+        <div class="head">
+            <h1 class="title"><span class="title1">Press</span> a <span class="title2">Color</span> to <span class="title3">Start</span> !</h1>
+            <p class="description-title"><em>and follow the pattern..</em> </p>
+        </div>
+
+        <div class="body ">
+           
+            <div class="simon-buttons">
+                 
+                <svg version="1.1" width="100%"  viewBox="0 0 1024 1024">
+                        
+                    <a class="simon-button" data-btn-index="0">
+                        <polygon fill="#FCE38A" stroke="#3A3A3B" stroke-width="0" stroke-miterlimit="10" points="134.489,300.018 501.367,511.834 
+                        501.369,935.118 257.962,935.116 12.573,512.38 "/>
+                        <polygon class="effect" fill="#FCE38A" stroke="#3A3A3B" stroke-width="0" stroke-miterlimit="10" points="134.489,300.018 501.367,511.834 
+                        501.369,935.118 257.962,935.116 12.573,512.38 "/>    
+                    </a>
+                        
+    
+                        
+                    <a class="simon-button" data-btn-index="1" >
+                        <polygon fill="#95E1D3" stroke="#3A3A3B"  stroke-width="0" stroke-miterlimit="10" points="523,934.98 523,511.345 889.68,299.703 
+                        1011.437,510.5 767.95,934.381 "/>
+                        <polygon class="effect" fill="#95E1D3" stroke="#3A3A3B"  stroke-width="0" stroke-miterlimit="10" points="523,934.98 523,511.345 889.68,299.703 
+                            1011.437,510.5 767.95,934.381 "/>
+                    </a>
+    
+                        
+                    <a class="simon-button" data-btn-index="2" >
+                        <polygon  fill="#F38181" stroke="#3A3A3B"  stroke-width="0" stroke-miterlimit="10" points="878.663,282.731 511.784,494.548 
+                            145.145,282.794 266.816,71.941 755.661,70.882 "/>
+                        <polygon class="effect" fill="#F38181" stroke="#3A3A3B"  stroke-width="0" stroke-miterlimit="10" points="878.663,282.731 511.784,494.548 
+                    145.145,282.794 266.816,71.941 755.661,70.882 "/>
+                    </a>
+                    
+                </svg>
+                <div class="keyboard">
+                    <i class="far fa-keyboard keyboard-i"></i>
+                    <p class="icon-separator">{</p>
+                    <i class="fas fa-caret-left keyboard-left"></i>
+                    <i class="fas fa-caret-up keyboard-up"></i>
+                    <i class="fas fa-caret-right keyboard-right"></i>
+                    <p class="icon-separator">}</p>
+                    
+                </div>
+            </div>
+            <div class="final hide">
+                <h1><span class='final-1'>Con</span><span class='final-2'>gra</span><span class='final-3'>t's</span></h1>
+            </div>
+        </div>
+        
+        
+
+        <div class="footer">
+               
+               
+            
+           
+        </div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
